@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Practica 2</title>
+	<link rel="stylesheet" href="css/style1.css">
+</head>
+
+<body>
+	<div id="contenido">
+		<nav>
+			<ul>
+				<li><a href="practica 1.html">ANTERIOR</a></li>
+				<li><a href="index.html">INICIO</a></li>
+				<li><a href="practica 3.html">SIGUIENTE</a></li>
+			</ul>
+		</nav>
+		<div class="tema">
+			<h1> PRACTICA 2: LABORATORIO DE PROGRAMACIÓN WEB</h1><br>
+			<hr>
+
+		</div>
+		<header>
+
+			<h2><strong>OBJETIVO DE HTML5: </strong></h2><br>
+			<p>Se puede mejorar el lenguaje de la web, utilizando los nuevos comandos y nuevas etiquetas que han llegado
+				en estos tiempos, con eso sería mas sencillo y avanzado realizar páginas web con los nuevos elementos
+				disponibles, para eso se identifican las características de html5, con elementos multimedia, canvas,
+				formularios web y tablas avanzadas. Comprender los beneficios del html5 para diseñadores, usuarios,
+				aparte usarlos en las diferentes empresas.</p><br>
+
+
+			<h2><strong>DEFINICION DE HTML5: </strong></h2><br>
+			<p>Se define como la quinta versión de HTML. Definen los nuevos estándares de desarrollo web, rediseñando el
+				código para resolver problemas y actualizándolo así a nuevas necesidades, esto puede incorporar muchas
+				características nuevas y proporciona una plataforma de desarrollo de complejas aplicaciones web. Esta
+				versión nos permite una mayor interacción entre nuestras páginas web y el contenido media como video,
+				audio, iframes y mensaje de voz así como una mayor facilidad a la hora de codificar nuestro diseño
+				básico. HyperText, cuyo significado es hipertexto, que no es más que un texto que enlaza con otros
+				contenidos, que pueden ser otro texto u otro archivo. Esto es la base del funcionamiento de la web tal y
+				como la conocemos, que no es más que páginas y recursos interconectados. Markup, que significa marca o
+				etiqueta, ya que todas las páginas web están construidas en base a etiquetas, desde las primeras
+				versiones hasta las últimas etiquetas de HTML5. </p>
+			<img src="img/html5.jpg">
+
+
+			<h2><strong>CARACTERÍSTICAS: </strong></h2><br>
+			<p>Nuevas etiquetas semánticas para estructurar los documentos HTML, destinadas a remplazar la necesidad de
+				tener una etiqueta (div) que identifique cada bloque de la página.</p><br>
+			<p>La integración de gráficos vectoriales escalables (SVG) en sustitución de los genéricos (object), y un
+				nuevo elemento (canvas) que nos permite dibujar en él.</p><br>
+			<p>El cambio, redefinición o estandarización de elementos.</p><br>
+			<p>MATHML para formulas matemáticas</p><br>
+			<p>Almacenamiento local en el lado del cliente. </p><br>
+			<p>Gracias al almacenamiento local (no oficialmente HTML5, pero agrupado por conveniencia), podemos hacer
+				que los navegadores avanzados "recuerden" lo que escribimos, incluso después de que el navegador se
+				cierra o se actualiza.</p><br>
+
+			<h2><strong>La historia de HTML5: </strong></h2><br>
+			<p>HTML4, que se dió por cerrado en 1998, este erá la base de la gran mayoría de las páginas web que podemos
+				ver hoy en día</p><br>
+			<p>Los diseñadores usaron la version HTML4.01 por varios años de manera efectiva con el CSS y con JavaScript
+				para añadir interacción.</p><br>
+			<p>Cuando acabo el HTML4.01 le siguió XHMTL 1.0 el cual era más escricto que su predecesor ya que este se
+				tenía que escribir todo en minúsculas. Aunque poco despues se creo XHTML 2.0 como resultado de mejoras
+				en el lenguaje.</p><br>
+			<p>En el 2004 un grupo independiente llamado WHATWG(Web Hypertext Application Technology Working Group)
+				trabajaron en mejorar el HTML y dos años y medio después en 2006 se anunció que W3C y WHATWG trabajarían
+				juntos en mejorar el HTML y como resultado el desarrollor de XHTML2.0 fue abandonado y el HTML 4.0 se
+				reformo a HTML5.</p><br>
+
+			<h2><strong>HTML5 extiende lo que puede hacer una página web: </strong></h2><br>
+			<p>Hasta el día de hoy HTML no tiene la capacidad de reproducir contenidos multimedias (audio o vídeo) por
+				si mismo, si no que ocupa un complemetno como Adobe® Flash® o Microsoft® Silverlight®. Tampoco tiene la
+				capacidad de almacenar datos en el ordenador del usuario. No existe un formato de dibujo nativo en HTML.
+				Todos los gráficos y animaciones se ofercen gracias a complementos como Adobe Flash, Java, Microsoft
+				Silverlight y otros. Pero esto no limita a HTML5 si no que ayuda a que los usuarios den un mejor
+				rendimiento.</p><br>
+
+			<h2><strong>Lenguaje de HTML5: </strong></h2><br>
+			<p>Este lenguaje incorpora algunas etiquetas nuevas para que la estructrua de la página web sea más lógica y
+				funcional, antes la estructura de un página web dependía de las etiquetas < div>, asociadas a una clase
+					CSS o un ID. </p><br>
+			<p>Por ejemplo en HTML 4.0 es acaptado definir la cabecera de una página web de esta forma:</p><br>
+			<img src="img/headerex.png" style="width: 40%;height: 40%;">
+
+
+			</p> <br>
+			<p>En este caso, el código de ID de CSS sirve para definir la anchura y altura de la cabecera así como su
+				color de fondo. En CSS podríamos tener algo así.</p><br>
+			<img src="img/cssex.png" style="width: 40%;height: 40%;">
+
+			<p>El ID de header es arbitrario. Algunos diseñadores usan nombres como masthead, topsection, o box. En
+				HTML5 existe una etiqueta llamada < header> que sustituye el < div> así que la sintaxis es más lógica y
+						coherente:</p><br>
+			<img src="img/cabeex.png" style="width: 40%;height: 40%;">
+			</p><br>
+
+			<p> A este ejemplo ya le podemos añadir las propiedades de estilo, ancho, color de fondo,etc. que queramos.
+			</p><br>
+			<p>La difrencia entre estos dos ejemplos anteriores se entiende así: el # header se refiere a un atributo ID
+				de CSS y en el segundo caso utilizamos un sector header que es una novedad de HTML5 y dispone elementos
+				nuevos aparte de éste como < footer>, < nav>, < section>, < aside>, y < article>. Estos nombres se basan
+									en los que se vienen utilizando habitualmente para distinguir secciones dentro de la
+									página web. El objetivo de los nuevos elementos de HTML5 no es otro más que evitar
+									una excesiva dependencia de las etiquetas < div> y sustituirlas por una páginas más
+										consistente y legible. Como se puede ver HTML5 no sustituye ningún elemento si
+										no que añade nuevos para organizar y mejorar el trabajo en las páginas web.</p>
+			<br>
+
+			<h2><strong> Los elementos < video>, < audio> y < canvas> </strong></h2><br>
+			<p> La especificación HTML5 incluye etiquetas que nos permiten integrar contenidos multimedia sin necesidad
+				de complementos de navegador. Las etiquetas < video> y < audio> sirven para integrar video y audio en
+						las páginas web de la misma forma que actualmente se hace con los archivos de imagen utilizando
+						la etiqueta < img>. La etiqueta < canvas> dota al lenguaje HTML de un formato nativo para el
+								dibujo y la animación. Esta etiqueta puede servir, además, como plataforma alternativa
+								para los gráficos y animaciones que hoy en día podemos ver en películas Flash. (Nota,
+								los elementos Flash ya no reciben soporte y se consideran obsoletos) </p><br>
+
+			<h2><strong>Elementos < video> y < audio> para incorporar contenidos multimedia </strong></h2>
+			<p>La estructura necesaria para incorporar contenidos de audio o vídeo a una página web es bastante
+				sencilla, como podemos ver a continuación en el siguiente ejemplo </p><br>
+			<img src="img/Video.png" style="width: 40%;height: 40%;">
+			</p><br>
+
+			<p> Insertar un archivo de audio mp3 en la página se hace de forma similar. En el caso del audio y el vídeo
+				podemos añadirle también controles de reproducción y la posibilidad de precarga, utilizando los
+				atributos controls, preload, y autobuffer: </p><br>
+			<img src="img/audioex.png" style="width: 40%;height: 40%;">
+			</p><br>
+
+			<h2>El elemento < canvas> para dibujo y animación<strong></strong></h2>
+			<p>El elemento canvas funciona a modo de superficie de dibujo dentro de una página web .Dentro de esta
+				superficie de dibujo podemos crear formas con colores, gradientes y patrones de relleno. Podemos
+				manipular los pixels de forma interactiva en pantalla, mostrar textos y exportar los contenidos hacia
+				archivos de imagen estática, como .PNG. Podemos también utilizar JavaScript o las nuevas funciones de
+				animación de CSS3 para que los objetos que creamos puedan moverse, desaparecer, cambiar de tamaño, etc.
+			</p><br>
+			<img src="img/canvaex.png" style="width: 40%;height: 40%;">
+			</p><br>
+
+			<p>JavaScript se encarga de todo el trabajo y nos ofrece un contexto para el objeto creado. Por ejemplo,
+				para crear uno de los objetos más sencillos dentro del canvas, un rectángulo negro, el código necesario
+				puede ser como este: </p><br>
+			<img src="img/canscipt.png" style="width: 40%;height: 40%;">
+			</p><br>
+
+			<p> Con estas pocas líneas creamos un rectángulo de color negro con unas dimensiones concretas. El código
+				puede parecer excesivo para un resultado tan simple, pero la etiqueta canvas se limita a presentar el
+				código dentro de un documento HTML y este modelo nos aporta una serie de ventajas. Entre los usos
+				previsibles están elementos de la interfaz de usuario, como controles de reproducción, elementos de
+				ilustración que se pueden animar o visualización dinámica de datos como diagramas y gráficos.</p><br>
+
+			<h2>Formularios web<strong> </strong></h2>
+			<p>Los nuevos elementos de formulario de HTML, cuando se implementen, harán que el trabajo con formularios
+				sea más sencillo que ahora. Por ejemplo, muchos diseñadores web necesitan crear formularios en donde los
+				datos tienen que comprobarse antes de enviarlos al servidor.</p><br>
+			<img src="img/form ex.png" style="width: 40%;height: 40%;">
+			</p><br>
+
+			<h2>¿Qué es una API?<strong></strong></h2>
+			<p>Las APIs (Application Programming Interfaces) son una forma de crear aplicaciones utilizando componentes
+				preconfigurados cuyo uso no se restringe a la web, ni siquiera a los lenguajes de scripting. Sitios web
+				como Twitter o YouTube entre otros, ofrecen APIs al público de manera que los diseñadores y
+				desarrolladores pueden con ellas integrar algunas de sus funcionalidades dentro de sus propios sitios
+				web.</p><br>
+
+			<h2>Web Workers<strong></strong></h2>
+			<p>Web Workers es otra API que se suele considerar de la familia HTML5. Web Workers es un marco de
+				programación que resuelve problemas de rendimiento de los navegadores. Al acceder a aplicaciones web
+				avanzadas, como las de mapas o aquellas que generan gráficos o diagramas al entrar en la página web, se
+				inician ciertas operaciones de computación que consumen una gran cantidad de recursos de procesador y
+				que pueden reducir notablemente el rendimiento de la aplicación. Gran parte de la ralentización es
+				debida a que se produce un conflicto a nivel de máquina entre las tareas interactivas de usuario
+				(pulsación del ratón, arrastre, etc.) y la necesidad de la propia aplicación de acceder a recursos como
+				datos, tarjeta gráfica u otros.</p><br>
+
+			<h2>Almacenamiento Web<strong></strong></h2>
+			<p>El Almacenamiento Web (Web Storage) es un ejemplo de uso de modelos preexistentes de tecnologías web bajo
+				nuevas modalidades, más potentes. El Web Storage mejora el concepto de cookies del navegador.
+				Actualmente las cookies permiten que los sitios web puedan guardar información en cantidades muy
+				reducidas en los equipos de los usuarios, datos que normalmente sirven para volver a utilizarlos en
+				momentos posteriores, y de esta manera, por ejemplo, ciertos sitios web recuerdan la información del
+				usuario desde el último acceso.
+
+				Las cookies son una tecnología bastante limitada y no resulta fácil su utilización por parte de los
+				diseñadores web. Ahora, Web Storage actualiza este modelo para que las aplicaciones web puedan almacenar
+				una cantidad de datos muy superior y que su acceso y utilización sea mucho más fácil y eficiente.
+
+				HTML5 nos ofrece dos maneras de guardar datos: localStorage y sessionStorage. Los datos guardados con
+				localStorage quedan a disposición del navegador en todo momento, aunque cerremos el programa o se
+				reinicie el sistema. Los datos guardados bajo la modalidad sessionStorage se pierden al cerrar el
+				navegador.
+			</p><br>
+
+
+
+
+			<h2><strong>Transformaciones CSS 2D y 3D </h2></strong>
+			<p>La propiedad transform de CSS nos permite rotar, cambiar la escala o sesgar un elemento de una página
+				web. Un ejemplo puede ser el girar levemente una foto dentro de una página para conseguir un efecto
+				estéticamente muy atractivo. También podemos dar animación a las transformaciones: por ejemplo, mediante
+				animación aplicada a la propiedad "scale" podemos conseguir un efecto de ampliación o reducción del
+				tamaño de una imagen o de cualquier otro elemento.</p>
+			<h2><strong>Fondos, bordes, colores RGBa, gradientes, sombras y esquinas redondeadas</h2></strong>
+			<p>Con CSS3 es posible aplicar mejoras muy interesantes a la presencia visual de una página. Algunos efectos
+				tradicionales, como background-image y la propiedad border han sido mejorados en CSS3. Por ejemplo,
+				podemos utilizar la propiedad border-image para utilizar imágenes como bordes de objetos, o añadir
+				varias imágenes de fondo a un mismo contenedor, evitando así la limitación actual a una sola imagen que
+				permite la propiedad background-image.</p>
+			<h2><strong>Fuentes de letra Web @font-face</h2></strong>
+			<p>Cada vez está más extendido el soporte para añadir tipos de letra especiales a las páginas web mediante
+				la propiedad @font-face, que permite especificar una fuente concreta y un enlace desde el cual el
+				navegador pueda descargarla. Esta característica puede cambiar de forma radical el aspecto de las
+				páginas web, pero lamentablemente también se ve afectada por los muchos problemas de compatibilidad con
+				navegadores antiguos que se pueden ver en otras funcionalidades de HTML5.</p>
+			<h2><strong>Media Queries de CSS</h2></strong>
+			<p>El tamaño de las pantallas que podemos encontrar varía enormemente. Un monitor de ordenador de gran
+				formato puede llegar a resoluciones de 2.000 pixels de anchura, mientras que un pequeño teléfono móvil
+				apenas nos ofrecerá 320 pixels. El reto que supone presentar una experiencia equivalente en ambas
+				pantallas puede resolverse mediante las nuevas directivas de CSS de consulta de tipo de medios ("media
+				queries"). </P>
+			<h2><strong>Animaciones con CSS</h2></strong>
+			<p>tecnologías como Flash o Silverlight se han venido utilizando hasta ahora para animar objetos dentro de
+				las páginas web. Ahora ya podemos conseguir algunos de estos efectos utilizando las reglas y propiedades
+				de CSS3. En el futuro, el elemento Canvas de HTML5 y las transiciones de CSS3 permitirán crear elementos
+				animados e interactivos sobre la página. Las animaciones de CSS, y el tema siguiente, las transiciones,
+				probablemente estarán soportadas por la mayoría de los navegadores en los próximos años.</p>
+			<h2><strong>Transiciones de CSS </h2></strong><br>
+			<p>Las transiciones de CSS están muy relacionadas con el concepto de animación, pero son algo completamente
+				distinto. Una transición permite variar el valor de una propiedad CSS de manera continua a lo largo de
+				un intervalo de tiempo definido. Por ejemplo, un botón con un fondo de color verde puede cambiar de
+				forma progresiva y suave a un color distinto cuando el usuario pasa el cursor sobre él.</p><br>
+			<p>Actualmente podemos conseguir este tipo de transiciones utilizando JavaScript y Flash, pero igual que
+				sucede con otros muchos elementos de CSS3, las transiciones ofrecen a los diseñadores web una
+				alternativa para conseguir los mismos resultados sin necesidad de convertirse en programadores expertos.
+			</p><br>
+			<h2><strong>HTML está en un momento de transición</h2></strong><br>
+			<p>Las tecnologías que hay detrás de HTML5 están en fase de transición, por lo que es necesario tener claro
+				cuándo debemos utilizarlas y cuándo no.</p><br>
+			<p> Todos los navegadores de mayor difusión hoy en día (Microsoft Internet Explorer, Mozilla Firefox, Apple
+				Safari, Google Chrome y Opera) ofrecen soporte, en grado variable, para las funcionalidades de HTML5 en
+				cuanto a su sintaxis y tecnologías relacionadas. En algunos casos una página que ofrece alguna
+				funcionalidad nueva o un aspecto especial en un navegador puede que no se consiga ver en absoluto en
+				otro, o que algunas características no estén presentes aunque la página siga siendo funcional. </p><br>
+			<h2><strong>
+					<li> Perspectivas de soporte por parte de los navegadores</h2></strong></li><br>
+			<br>
+			<p> Los diseñadores web más conservadores pueden optar por esperar hasta entonces para incorporar el HTML5 a
+				sus entornos en producción, pero el estándar es independiente del soporte de los navegadores. La mayoría
+				de los navegadores actuales soportan ya una serie de funcionalidades de HTML5. Algunas de ellas ya se
+				muestran relativamente estables, bien desarrolladas y su uso parece fiable y seguro.</p><br>
+			<h2><strong>¿Quién utiliza HTML5 a día de hoy?</h2></strong><br>
+			<p>Existen numerosas demos de HTML5 que no se podrían poner en entornos en producción debido al distinto
+				grado de soporte que ofrecen los navegadores. Si decides incorporar funciones de estilo de CSS3, hay
+				muchos sitios web personales y de empresas que utilizan los elementos más vistosos, como border-radius o
+				las funciones de transformación. En estos casos, los diseñadores pueden utilizar las funcionalidades y
+				añadir alternativas adicionales para asegurarse de que la restitución de estas páginas en navegadores no
+				compatibles no es demasiado diferente de cómo se ven en los navegadores más modernos.</p><br>
+			<p>Todos los navegadores web de mayor difusión apuestan por HTML5 en sus últimas versiones y si aprendes hoy
+				sus secretos, podrás formar parte activa de una nueva era que ahora comienza para la Web, llena de
+				interés y asombrosas novedades.</p><br>
+			<h2><strong>Funcionalidades y características futuras de HTML5 </h2></strong><br>
+			<p>La lista siguiente es una enumeración de otras funcionalidades que forman parte de la especificación
+				HTML5 o de sus tecnologías adscritas que deben añadirse (o en algunos casos ya están añadidas) a los
+				navegadores del futuro.</p><br>
+
+			<ol>
+				<h2>
+					<li><strong>Drag and Drop
+				</h2></strong></li><br>
+
+				<br>
+				<p>Las operaciones Drag-and-Drop ("arrastrar y soltar") permiten al usuario mover en pantalla los
+					elementos de forma visual en lugar de hacerlo pulsando botones. La API Drag and Drop de HTML5 se
+					basa en la implementación original de Internet Explorer. Han cambiado algunos detalles y ciertos
+					navegadores ofrecen una sintaxis diferente, pero ya está a punto de cerrarse una API normalizada.
+				</p><br>
+				<h2>
+					<li><strong>La API File (Archivo)
+				</h2></strong></li><br>
+				<br>
+				<p>La API llamada "File" (Archivo) permite a los desarrolladores acceder a archivos del disco duro de la
+					máquina cliente sin necesidad de instalar extensiones o complementos. Con esta API, al fin podremos
+					disponer de un modelo unificado de acceso mediante el cual las aplicaciones web podrán operar con
+					archivos (por ejemplo para subirlos a un servidor). Una aplicación de edición de fotos basada en
+					web, por ejemplo, podría ofrecer el mismo modo de operación en todos los navegadores compatibles
+					utilizando esta API.</p><br>
+				<h2>
+					<li><strong>Disposición de objetos en pantalla con Flexbox
+				</h2></strong></li><br>
+				<br>
+				<p>CSS3 introduce una nueva forma de crear diseños para la distribución de los objetos en pantalla,
+					llamado Flexible Box Layout ("Flexbox"). En este sistema se pueden crear disposiciones fluidas sin
+					necesidad de acudir a las habituales directivas "float" y "clear" de CSS. <U>Su objetivo es ofrecer
+						herramientas más fiables y potentes a los diseñadores y desarrolladores para crear estructuras
+						visuales complejas, válidas para la web y para dispositivos móviles.</U>
+				<p><br>
+				<h2>
+					<li><strong>Distribuciones en rejilla y columnas múltiples
+				</h2></strong></li><br>
+				<br>
+				<p>También dentro de CSS, las definiciones de distribuciones en pantalla en formato de columnas
+					múltiples y rejillas ("grids") son dos mejoras más orientadas a facilitar la presentación visual de
+					las páginas web. La propiedad Multi-column de CSS nos permite distribuir un contenido (puede ser un
+					bloque de texto, por ejemplo) en dos o más columnas, facilitando así su lectura sin tener que
+					recurrir a complicados juegos visuales.</p><br>
+			</ol>
+
+
+			<h2><strong>Identificación de sitios web basados en HTML5</h2></strong><br>
+
+			<p>En enero de 2010 el W3C presentó el logo de HTML5 para uso público, con el cual quieren promocionar las
+				nuevas capacidades de HTML5 y sus tecnologías asociadas.
+			<p /p><br>
+				<img src="img/Img html.jpg">
+				<br>
+			<p>Este logo puede obtenerse como archive gráfico y se puede incorporar a los sitios web o cualquier otro
+				contenido para indicar que se utiliza esta tecnología. Conviene saber que el W3C utiliza el término
+				HTML5 en un sentido amplio e incluye otras tecnologías también. Además, el HTML5 se convertirá en el año
+				2014 en un estándar oficial, pero se recomienda a los diseñadores y desarrolladores que empiecen ya a
+				utilizar la especificación. Si quieres más información sobre HTML5 y el logo, puedes acceder a las
+				explicaciones del W3C en su web.
+			</p><br>
+
+			<h2><strong>Materiales de autoformación</p></strong><br>
+				<p>La compatibilidad de los navegadores es un asunto de importancia especial al hablar de HTML5. Cuando
+					decidas utilizar la especificación HTML5, sus diversas APIs relacionadas y CSS3, deberás tener en
+					cuenta una gran cantidad de aspectos y el distinto grado de soporte que encontrarás para las
+					funcionalidades entre los diferentes navegadores.</p><br>
+
+				<h2><strong>Repaso</h2></strong><br>
+
+
+				<h2><strong>Preguntas</h2></strong><br>
+				<ol>
+					<p>
+						<li>Enumera tres componentes de HTML5 que ofrecen alternativas a los complementos o plug-ins de
+							los navegadores, como Flash y Silverlight.</li>
+					</p><br>
+					<p>
+						<li>¿Qué diferencia hay entre la especificación de HTML5 y la familia HTML5 tal y como la hemos
+							definido en esta lección?.</li>
+					</p><br>
+					<p>
+						<li> ¿Qué es la geolocalización?.</li>
+					</p><br>
+				</ol>
+				<br>
+				<h2><strong>Respuestas</h2></strong>
+				<ol>
+					<p>
+						<li>Las etiquetas <U>video y audio</U> nos permiten integrar contenidos multimedia directamente
+							en el código HTML sin necesidad de complementos. El elemento <U>canvas</U> nos ofrece una
+							superficie para dibujar, crear formas, rellenos, gradientes, etc. y con la ayuda de CSS,
+							incluso podemos crear animaciones con estos objetos.</li>
+					</p><br>
+					<p>
+						<li>La especificación de HTML5 incorpora una serie de elementos nuevos (o etiquetas) que podemos
+							utilizar para crear una estructura de presentación nueva, o introducir nuevas
+							funcionalidades en las páginas web. La familia HTML5 está compuesta de tecnologías
+							relacionadas entre sí, pero independientes, como las APIs Web Storage o Geolocation, y CSS3.
+						</li>
+					</p><br>
+					<p>
+						<li>La geolocalización es una tecnología web capaz de identificar la ubicación geográfica del
+							usuario y, a partir de esa información, permite obtener datos útiles, como por ejemplo,
+							representar su localización en un mapa, calcular rutas o sugerir establecimientos cercanos.
+						</li>
+					</p><br>
+				</ol>
+
+
+		</header>
+
+		<article>
+			<br>
+			<h3> CONCLUSIONES </h3><br><br>
+
+			<p>Lo que me enseñó de esta nueva version del HTML, es que en este lenguaje podemos utilizar facilmente las
+				etiquetas para poder agregar imágenes, videos, audios, galerías con los nombres de sus comandos y tardar
+				poco en utilizar el código ya que no es necesario utilizar plug-ins. Para mi esta versión está muy
+				completa porque trajo un beneficio a todos los desarrolladores web, usuarios para realizar facilmente
+				las páginas web y utilizarlo tránquilamente en los servidores web, esto me permite realizar mejor mis
+				páginas web, proyectos que pudiera realizar en el futuro. Esta versión de HTML5, es muy recomendable
+				para los programadores web, administradores de recursos y personas que trabajan o les gustaría hacer
+				diseños de sitios web. </p>
+			<h4>1753717 De La Rosa Rangel Isai Alejandro</h4>
+			<hr><br>
+
+
+			<p>En esta práctica pude ver como el HTML5 fue mejorando de HTML 4.0 y como se fue dejando de lado a este
+				último y dejandolo por el XHTML pero gracias a la gente de W3C y WHATWG se mejoro para mejorar al HTML5
+				y seguirlo usando hasta hoy en día. Es impresionante como aunque sea muy parecido el HTML5 a su
+				predecesor el hecho de crear nuevas etiquetas al momento de estar trabajando en el CSS se hace el trajo
+				más ordenado y más limpio, esto nos enseña que un pequeño cambio puede hacer una gran diferencia. </p>
+			<h4>1677657 González Piña Kevin Eduardo</h4>
+			<hr><br>
+
+
+			<p> Tras realizar esta práctica adquiri mas conocimientos sobre el lenguaje HTML5, sobre como utilizar
+				facilmente las etiquetas que en sí, no me aprendi todas las que observé en la información; mas sin
+				embargo, si se me quedaron unas importantes como por ejemplo: <U>agregar imagenes</U>, <U>para estilos
+					de letra</U>, <U>color de letra</U>, <U>negritas</U>, <U>tablas</U>, <U>bordes</U>, <U>centrar</U> y
+				entre otras mas etiquetas</li>. Asi como tambien agregar otras atiquetas nuevas al momento de trabajar
+				con CSS, que sirve para darle un estilo mucho mejor mas ordenado a nuestra pagina web que estamos
+				relizado.</p>
+			<h4> 1743776 Garza Gámez Dax Walter </h4>
+			<hr><br>
+
+
+			<p>Al finalizar esta actividad pudimos entender lo importante que es el CSS y el html5. El marcado html, es
+				muy importante. Tenemos que tomarnos el tiempo necesario, para crear un buen marcado html. La llegada de
+				HTML5 ha permitido que el proceso de escribir código resulte mucho mas simple y lógico, a mi
+				personalmente, la llegada de HTML5 me ha devuelto las ganas de “codear” y eso es algo muy bueno para
+				querer aprender mas.</p>
+			<h4> 1844993 Perea Benitez Edel Arit</h4>
+			<hr><br>
+
+			<p>Tras la realización de esta actividad se logro comprender mas a fondo sobre las capacidades de HTML al
+				igual que su historia y funciones que tenemos a nuestra disposición que no muchas veces les hemos dado
+				su uso a pesar de tenerlas a nuestro alcance y el que tengan su cierta funcionalidad. En mi caso no muy
+				a menudo hago el uso de insertar audio y video en paginas web puesto a que no sabía con certeza el como
+				realizar esto. </p>
+			<h4> 2035407 Gutierrez Santoyo Manuel</h4>
+			<hr><br>
+
+		</article>
+	</div>
+
+</body>
+
+</html>
