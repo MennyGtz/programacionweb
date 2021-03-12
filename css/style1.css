@@ -14,6 +14,11 @@ body{
 
 }
 
+#cont{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
 nav{
 	background: black;
 	height:68px;
@@ -74,6 +79,7 @@ p{
 	font-size:20px;
 	color:#fff;
 	text-align: justify;
+	margin-top: 10px;
 }
 
 h3{
@@ -97,3 +103,20 @@ li {
 	color:#fff;
 	text-align: justify;
 }
+
+ol{
+	color:#00ff00;
+	font-family: Arial;
+	text-align: justify;
+	font-size: 20px;
+	margin-top: 13px;
+}
+
+#u{
+	color:#9acd32;
+}
+
+#u2{
+	color:orange;
+}
+
