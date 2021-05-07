@@ -152,3 +152,40 @@ img{
 canvas{
 	background: #fff;
 }
+
+#droppable {
+    height: 110px;
+    width: 110px;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: green;
+    border: 1px solid black;
+    font-family: Arial;
+}
+
+span{
+	float: center;
+}
+
+
+.droppable.droppable-hover {
+  /* background-color: #bee3f0; */
+  border-width: 5px;
+  transform: scale(1.1);
+}
+.droppable.dropped {
+  border-style: solid;
+  color: #fff;
+}
+.droppable.dropped span {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+.droppable.dropped i {
+  pointer-events: none;
+}
